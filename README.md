@@ -28,26 +28,46 @@ PROCEDURE
 
 
 PROGRAM:
+
 t=0:0.01:2*pi;
- 
+
 x=sin(2*t); 
+
 subplot(3,2,1); 
+
 plot(x); 
+
 au=xcorr(x,x);
+
  
+
 Subplot (3,2,2); 
+
 plot (au);
+
 v=fft(au); 
+
 subplot(3,2,3);
+
 plot(abs(v));
+
 fw=fft(x); 
+
 subplot(3,2,4); 
+
 plot(fw);
+
 fw2=(abs(fw)).^2;
+
 subplot(3,2,5);
+
 plot(fw2);
 
+
+
 OUTPUT:
+<img width="1915" height="986" alt="image" src="https://github.com/user-attachments/assets/3bf2f9bb-0861-47c5-bde8-021e35dd3224" />
+
 
 
 
