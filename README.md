@@ -28,7 +28,7 @@ PROCEDURE
 
 
 PROGRAM:
-
+```
 t=0:0.01:2*pi;
 
 x=sin(2*t); 
@@ -62,7 +62,7 @@ fw2=(abs(fw)).^2;
 subplot(3,2,5);
 
 plot(fw2);
-
+```
 
 
 OUTPUT:
