@@ -1,4 +1,4 @@
-# Auto-correlation-and-PSDAssignmentVAGEESHEXPT.NO.6	SIMULATION OF AUTOCORRELATION AND PSD USING SCILAB AIM:
+# Auto-correlation-and-PSDAssignment EXPT.NO.6	SIMULATION OF AUTOCORRELATION AND PSD USING SCILAB AIM:
 Write a program for Autocorrelation and PSD of signals in SCILAB and verify Wiener-Khinchin relation.
 
 EQUIPMENTS Needed
